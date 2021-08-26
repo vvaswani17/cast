@@ -1,0 +1,97 @@
+[0m[[0m[31merror[0m] [0m[0mD:\workspace\CastTest\src\main\scala\com\org\cast\impl\CastLoader.scala:7:8: not found: object service[0m
+[0m[[0m[31merror[0m] [0m[0mimport service.CastService[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\workspace\CastTest\src\main\scala\com\org\cast\impl\CastLoader.scala:21:54: not found: type CastService[0m
+[0m[[0m[31merror[0m] [0m[0m  override def describeService = Some(readDescriptor[CastService])[0m
+[0m[[0m[31merror[0m] [0m[0m                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\workspace\CastTest\src\main\scala\com\org\cast\impl\CastLoader.scala:27:58: not found: type CastService[0m
+[0m[[0m[31merror[0m] [0m[0m  override lazy val lagomServer: LagomServer = serverFor[CastService](wire[CastServiceImpl])[0m
+[0m[[0m[31merror[0m] [0m[0m                                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\workspace\CastTest\src\main\scala\com\org\cast\impl\CastServiceImpl.scala:7:8: not found: object service[0m
+[0m[[0m[31merror[0m] [0m[0mimport service.CastService[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\workspace\CastTest\src\main\scala\com\org\cast\impl\CastServiceImpl.scala:13:11: not found: type CastService[0m
+[0m[[0m[31merror[0m] [0m[0m  extends CastService {[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\workspace\CastTest\src\main\scala\com\org\cast\impl\CastLoader.scala:27:75: exception during macro expansion: [0m
+[0m[[0m[31merror[0m] [0m[0mscala.reflect.macros.TypecheckException: not found: type CastService[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.contexts.Typers.$anonfun$typecheck$3(Typers.scala:44)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.contexts.Typers.$anonfun$typecheck$2(Typers.scala:38)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.contexts.Typers.doTypecheck$1(Typers.scala:37)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.contexts.Typers.typecheck(Typers.scala:51)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.contexts.Typers.typecheck$(Typers.scala:32)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.contexts.Context.typecheck(Context.scala:18)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.contexts.Context.typecheck(Context.scala:18)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.softwaremill.macwire.internals.TypeCheckUtil.typeCheckExpressionOfType(TypeCheckUtil.scala:58)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.softwaremill.macwire.internals.TypeCheckUtil.typeCheckIfNeeded(TypeCheckUtil.scala:13)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.softwaremill.macwire.internals.EligibleValuesFinder$EligibleValues.$anonfun$put$1(EligibleValuesFinder.scala:235)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Option.map(Option.scala:242)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.softwaremill.macwire.internals.EligibleValuesFinder$EligibleValues.put(EligibleValuesFinder.scala:235)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.softwaremill.macwire.internals.EligibleValuesFinder.doFind$1(EligibleValuesFinder.scala:87)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.softwaremill.macwire.internals.EligibleValuesFinder.$anonfun$find$16(EligibleValuesFinder.scala:122)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.softwaremill.macwire.internals.Logger.withBlock(Logger.scala:15)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.softwaremill.macwire.internals.EligibleValuesFinder.find(EligibleValuesFinder.scala:121)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.softwaremill.macwire.internals.DependencyResolver.eligibleValues$lzycompute(DependencyResolver.scala:13)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.softwaremill.macwire.internals.DependencyResolver.eligibleValues(DependencyResolver.scala:13)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.softwaremill.macwire.internals.DependencyResolver.resolve(DependencyResolver.scala:21)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.softwaremill.macwire.internals.ConstructorCrimper.$anonfun$wireConstructorParams$2(ConstructorCrimper.scala:60)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.immutable.List.map(List.scala:246)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.softwaremill.macwire.internals.ConstructorCrimper.$anonfun$wireConstructorParams$1(ConstructorCrimper.scala:60)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.immutable.List.map(List.scala:246)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.softwaremill.macwire.internals.ConstructorCrimper.wireConstructorParams(ConstructorCrimper.scala:60)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.softwaremill.macwire.internals.ConstructorCrimper.$anonfun$constructorArgs$3(ConstructorCrimper.scala:48)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Option.map(Option.scala:242)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.softwaremill.macwire.internals.ConstructorCrimper.$anonfun$constructorArgs$2(ConstructorCrimper.scala:48)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.softwaremill.macwire.internals.Logger.withBlock(Logger.scala:15)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.softwaremill.macwire.internals.ConstructorCrimper.constructorArgs$lzycompute(ConstructorCrimper.scala:48)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.softwaremill.macwire.internals.ConstructorCrimper.constructorArgs(ConstructorCrimper.scala:47)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.softwaremill.macwire.internals.ConstructorCrimper.$anonfun$constructorTree$2(ConstructorCrimper.scala:57)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.softwaremill.macwire.internals.Logger.withBlock(Logger.scala:15)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.softwaremill.macwire.internals.ConstructorCrimper.constructorTree$lzycompute(ConstructorCrimper.scala:55)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.softwaremill.macwire.internals.ConstructorCrimper.constructorTree(ConstructorCrimper.scala:55)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.softwaremill.macwire.MacwireMacros$.wire_impl(MacwireMacros.scala:27)[0m
+[0m[[0m[31merror[0m] [0m[0m  override lazy val lagomServer: LagomServer = serverFor[CastService](wire[CastServiceImpl])[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\workspace\CastTest\src\main\scala\com\org\cast\impl\CastLoader.scala:28:25: not found: type CastService[0m
+[0m[[0m[31merror[0m] [0m[0m  lazy val castService: CastService = serviceClient.implement[CastService][0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\workspace\CastTest\src\main\scala\com\org\cast\impl\CastLoader.scala:28:63: not found: type CastService[0m
+[0m[[0m[31merror[0m] [0m[0m  lazy val castService: CastService = serviceClient.implement[CastService][0m
+[0m[[0m[31merror[0m] [0m[0m                                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\workspace\CastTest\src\main\scala\com\org\cast\impl\CastServiceImpl.scala:6:21: object models is not a member of package com.org.cast[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.org.cast.models.Cast[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\workspace\CastTest\src\main\scala\com\org\cast\impl\CastServiceImpl.scala:22:59: not found: type Cast[0m
+[0m[[0m[31merror[0m] [0m[0m   def getActiveCasts(id: Int): ServiceCall[NotUsed, List[Cast]] = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\workspace\CastTest\src\main\scala\com\org\cast\impl\ServiceCallFunctions.scala:6:21: object models is not a member of package com.org.cast[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.org.cast.models.Cast[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\workspace\CastTest\src\main\scala\com\org\cast\impl\ServiceCallFunctions.scala:28:44: not found: type Cast[0m
+[0m[[0m[31merror[0m] [0m[0m  def getActiveCasts(id: Int): Future[List[Cast]] = Future {[0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\workspace\CastTest\src\main\scala\com\org\cast\impl\ServiceCallFunctions.scala:30:10: not found: value Cast[0m
+[0m[[0m[31merror[0m] [0m[0m    List(Cast(originatorUserId = 1, bondId = 1, side = "buy", status = "", targetUserIds = 1, quantity = None, price = None))[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\workspace\CastTest\src\main\scala\com\org\cast\impl\ServiceCallFunctions.scala:30:15: not found: value originatorUserId[0m
+[0m[[0m[31merror[0m] [0m[0m    List(Cast(originatorUserId = 1, bondId = 1, side = "buy", status = "", targetUserIds = 1, quantity = None, price = None))[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\workspace\CastTest\src\main\scala\com\org\cast\impl\ServiceCallFunctions.scala:30:37: not found: value bondId[0m
+[0m[[0m[31merror[0m] [0m[0m    List(Cast(originatorUserId = 1, bondId = 1, side = "buy", status = "", targetUserIds = 1, quantity = None, price = None))[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\workspace\CastTest\src\main\scala\com\org\cast\impl\ServiceCallFunctions.scala:30:49: not found: value side[0m
+[0m[[0m[31merror[0m] [0m[0m    List(Cast(originatorUserId = 1, bondId = 1, side = "buy", status = "", targetUserIds = 1, quantity = None, price = None))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\workspace\CastTest\src\main\scala\com\org\cast\impl\ServiceCallFunctions.scala:30:63: not found: value status[0m
+[0m[[0m[31merror[0m] [0m[0m    List(Cast(originatorUserId = 1, bondId = 1, side = "buy", status = "", targetUserIds = 1, quantity = None, price = None))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\workspace\CastTest\src\main\scala\com\org\cast\impl\ServiceCallFunctions.scala:30:76: not found: value targetUserIds[0m
+[0m[[0m[31merror[0m] [0m[0m    List(Cast(originatorUserId = 1, bondId = 1, side = "buy", status = "", targetUserIds = 1, quantity = None, price = None))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\workspace\CastTest\src\main\scala\com\org\cast\impl\ServiceCallFunctions.scala:30:95: not found: value quantity[0m
+[0m[[0m[31merror[0m] [0m[0m    List(Cast(originatorUserId = 1, bondId = 1, side = "buy", status = "", targetUserIds = 1, quantity = None, price = None))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\workspace\CastTest\src\main\scala\com\org\cast\impl\ServiceCallFunctions.scala:30:112: not found: value price[0m
+[0m[[0m[31merror[0m] [0m[0m    List(Cast(originatorUserId = 1, bondId = 1, side = "buy", status = "", targetUserIds = 1, quantity = None, price = None))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m20 errors found[0m

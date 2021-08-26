@@ -1,0 +1,19 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging D:\workspace\CastTest\target\scala-2.13\casttest_2.13-0.1-sources.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\workspace\CastTest\src\main\resources\application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	service\CastService.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\workspace\CastTest\src\main\scala\service\CastService.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	service\models\Cast.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\workspace\CastTest\src\main\scala\service\models\Cast.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\org\cast\impl\CastLoader.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\workspace\CastTest\src\main\scala\com\org\cast\impl\CastLoader.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\org\cast\impl\CastServiceImpl.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\workspace\CastTest\src\main\scala\com\org\cast\impl\CastServiceImpl.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\org\cast\impl\Constants.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\workspace\CastTest\src\main\scala\com\org\cast\impl\Constants.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\org\cast\impl\DBOperations.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\workspace\CastTest\src\main\scala\com\org\cast\impl\DBOperations.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\org\cast\impl\ServiceCallFunctions.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\workspace\CastTest\src\main\scala\com\org\cast\impl\ServiceCallFunctions.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

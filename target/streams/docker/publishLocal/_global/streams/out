@@ -1,0 +1,50 @@
+[0m[[0m[0mdebug[0m] [0m[0mExecuting Native docker build --force-rm -t casttest:0.1 .[0m
+[0m[[0m[0mdebug[0m] [0m[0mWorking directory D:\workspace\CastTest\target\docker\stage[0m
+[0m[[0m[31merror[0m] [0m[0m#1 [internal] load .dockerignore[0m
+[0m[[0m[31merror[0m] [0m[0m#1 transferring context: 2B 0.0s done[0m
+[0m[[0m[31merror[0m] [0m[0m#1 DONE 0.1s[0m
+[0m[[0m[31merror[0m] [0m[0m#2 [internal] load build definition from Dockerfile[0m
+[0m[[0m[31merror[0m] [0m[0m#2 transferring dockerfile: 1.10kB 0.0s done[0m
+[0m[[0m[31merror[0m] [0m[0m#2 DONE 0.1s[0m
+[0m[[0m[31merror[0m] [0m[0m#3 [internal] load metadata for docker.io/library/openjdk:8[0m
+[0m[[0m[31merror[0m] [0m[0m#3 DONE 2.5s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 [stage0 1/9] FROM docker.io/library/openjdk:8@sha256:5d1f52c5be872d4d460...[0m
+[0m[[0m[31merror[0m] [0m[0m#4 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#8 [internal] load build context[0m
+[0m[[0m[31merror[0m] [0m[0m#8 transferring context: 26.79MB 2.5s[0m
+[0m[[0m[31merror[0m] [0m[0m#8 transferring context: 55.79MB 5.1s done[0m
+[0m[[0m[31merror[0m] [0m[0m#8 DONE 5.1s[0m
+[0m[[0m[31merror[0m] [0m[0m#10 [stage0 4/9] COPY 1/opt /1/opt[0m
+[0m[[0m[31merror[0m] [0m[0m#10 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#7 [stage0 2/9] WORKDIR /opt/docker[0m
+[0m[[0m[31merror[0m] [0m[0m#7 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#13 [stage0 7/9] RUN ["chmod", "-R", "u=rwX,g=rwX", "/1/opt/docker"][0m
+[0m[[0m[31merror[0m] [0m[0m#13 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#6 [mainstage 3/6] WORKDIR /opt/docker[0m
+[0m[[0m[31merror[0m] [0m[0m#6 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#14 [stage0 8/9] RUN ["chmod", "-R", "u=rwX,g=rwX", "/2/opt/docker"][0m
+[0m[[0m[31merror[0m] [0m[0m#14 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#5 [mainstage 2/6] RUN id -u demiourgos728 1>/dev/null 2>&1 || (( getent gr...[0m
+[0m[[0m[31merror[0m] [0m[0m#5 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#11 [stage0 5/9] COPY 2/opt /2/opt[0m
+[0m[[0m[31merror[0m] [0m[0m#11 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#12 [stage0 6/9] RUN ["chmod", "-R", "u=rwX,g=rwX", "/opt/docker"][0m
+[0m[[0m[31merror[0m] [0m[0m#12 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#15 [stage0 9/9] RUN ["chmod", "u+x,g+x", "/1/opt/docker/bin/casttest"][0m
+[0m[[0m[31merror[0m] [0m[0m#15 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#16 [mainstage 4/6] COPY --from=stage0 --chown=demiourgos728:root /opt/docke...[0m
+[0m[[0m[31merror[0m] [0m[0m#16 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#17 [mainstage 5/6] COPY --from=stage0 --chown=demiourgos728:root /1/opt/doc...[0m
+[0m[[0m[31merror[0m] [0m[0m#17 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#9 [stage0 3/9] COPY opt /opt[0m
+[0m[[0m[31merror[0m] [0m[0m#9 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#18 [mainstage 6/6] COPY --from=stage0 --chown=demiourgos728:root /2/opt/doc...[0m
+[0m[[0m[31merror[0m] [0m[0m#18 CACHED[0m
+[0m[[0m[31merror[0m] [0m[0m#19 exporting to image[0m
+[0m[[0m[31merror[0m] [0m[0m#19 exporting layers done[0m
+[0m[[0m[31merror[0m] [0m[0m#19 writing image sha256:ab575efcb2ae3cd1881e37324500e85e374a7f11b8dc024c08ae2a5638856b1a done[0m
+[0m[[0m[31merror[0m] [0m[0m#19 naming to docker.io/library/casttest:0.1 done[0m
+[0m[[0m[31merror[0m] [0m[0m#19 DONE 0.1s[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate image(s) (labeled "snp-multi-stage-id=86542456-f311-482d-9067-81847c6a964d") [0m
+[0m[[0m[0minfo[0m] [0m[0mTotal reclaimed space: 0B[0m
+[0m[[0m[0minfo[0m] [0m[0mBuilt image casttest with tags [0.1][0m
